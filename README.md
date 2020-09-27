@@ -1,33 +1,34 @@
 # Campus Recruitment - Data Science
 
+A data science project for learning purposes.
+
+## [Read the report here](https://vccolombo.github.io/data%20science/campus-recruitment/)
+
 ## Introduction
 
 One of the main concerns of students enrolled in all sorts of courses is whether they will find a job or not after finishing their studies.
 
-## Data
+In this report, I will analyze what factors influence the chances of finding good jobs after graduating from an MBA at an Indian university. Also, the results could be used by the institution to better select and guide their students during the course.
 
-The [dataset](https://www.kaggle.com/benroshan/factors-affecting-campus-placement) consists of 215 rows representing students that completed an MBA course at an Indian University. The columns are as follow:
+In the end, machine learning models will be created to try estimating if a student will find a job, and what wage it will receive.
 
-- **SerialNumber**: An increasing number which represents the row id.
-- **Gender**: The gender of the student (M / F).
-- **LowerSecondarySchollGrade%**: The average of grades in middle school (in %).
-- **LowerSecondarySchollBoard**: Schools in India are separated in "Boards", depending on their region (Central / Others).
-- **HigherSecondarySchollGrade%**: The average of grades in high school (in %).
-- **HigherSecondarySchollBoard**: Same as middle school board, but for high school (Central / Others).
-- **HigherSecondarySchollSpecialization**: The area of specialization during high school (Commerce / Science / Arts).
-- **DegreeGrade%**: The average of grades in college (in %).
-- **DegreeSpecialization**: The area of specialization in college (Sci&Tech / Comm&Mgmt / Others).
-- **WorkExperience**: Whether the student had previous work experience (Yes / No).
-- **EmployabilityTestGrade%**: A test that was made by the university to see if a student will be employed or not.
-- **MBASpecialization**: The area of specialization in the MBA (Mkt&HR / Mkt&Fin).
-- **MBAGrade%**: The average of grades in the MBA (in %).
-- **PlacementStatus**: Whether the student finds a job or not after completing the MBA (Placed / Not Placed).
-- **Salary**: The student salary after getting a job (only available if PlacementStatus == "Placed". NaN otherwise).
+### The Problem
 
-There are no missing values besides salary when the person is not placed. The dataset does not seem to contain incorrect data, but it has some outliers, like a person receiving a way bigger salary than the other students.
+Find what are the factors that lead to the best job opportunities for graduates from this institution.
 
-More information can be found in the [dataset page](https://www.kaggle.com/benroshan/factors-affecting-campus-placement).
+### Questions
 
-## References
+- What are the factors that lead to the person getting hired.
+- What impacts the most on the salary.
+- Can the institution predict if the person will get good results in the MBA before they are accepted?
+  - The idea is that the institution would like to know beforehand if someone would fail to find a job after the MBA. The objective is to avoid accepting people that would not find a job and increase the employability rate of the institution.
 
-https://www.kaggle.com/benroshan/factors-affecting-campus-placement
+### Benefits for the person:
+
+The person will be able to know beforehand what to focus on to get the best results (placement/salary).
+
+### Benefits for the institution:
+
+The institution may be able to better select its students, reducing failures and placing its students in the best market positions. It might lead to higher renown for the institution.
+
+Also, the institution may use the information to better prepare the course, focusing on the most important things to the market.
